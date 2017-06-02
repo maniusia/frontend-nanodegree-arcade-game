@@ -1,4 +1,5 @@
 /** Global */
+'use strict;';
 var MAP = {
     row: [0, 83, 166, 249, 332, 415],
     col: [0, 101, 202, 303, 404, 505]
@@ -61,7 +62,7 @@ Gem.prototype.update = function(dt) {
         this.reset();
     }
 
-    // Check for player collision
+    // check for player collision
 
     if (this.row === player.row) {
         var cells = this.getLocation();
@@ -95,8 +96,8 @@ Gem.prototype.getLocation = function() {
     var cells = [];
     var gemRightEdge = this.x + SPRITE_WIDTH;
 
-    // Locate the cell where the gems left edge is located
-    // If enemy is off the screen then do not run through the loop
+    // locate the cell where the gems left edge is located
+    // if enemy is off the screen then do not run through the loop
 
     if (this.x < MAP.col[MAP.col.length - 1] && gemRightEdge > 0) {
         for (var columns = 1; columns < MAP.col.length; columns++) {
@@ -109,7 +110,7 @@ Gem.prototype.getLocation = function() {
             }
         }
 
-        // Locate the cell where the gems right edge is located
+        // locate the cell where the gems right edge is located
 
         if (gemRightEdge > MAP.col[0] && gemRightEdge < MAP.col[MAP.col.length - 1]) {
             for (var column = 1; column < MAP.col.length; column++) {
@@ -147,7 +148,7 @@ var Enemy = function(row, x, speed) {
     this.speed = speed;
 };
 
-// Updates enemy position
+// updates enemy position
 
 Enemy.prototype.update = function(dt) {
     if (this.x <= ctx.canvas.width) {
@@ -156,7 +157,7 @@ Enemy.prototype.update = function(dt) {
         this.reset();
     }
 
-    // Check for player collision
+    // check for player collision
 
     if (this.row === player.row) {
         var cells = this.getLocation();
@@ -251,7 +252,7 @@ Player.prototype.reset = function() {
 
 };
 
-// Updates the player location.
+//Updates the player location.
 
 Player.prototype.update = function() {
     var maxWidth = MAP.col[MAP.col.length - 1];
@@ -288,8 +289,8 @@ Player.prototype.update = function() {
 
     // Check if player fell in water
 
-    if (player.row === 0) {
-        player.reset();
+    if (this.row === 0) {
+        this.reset();
     }
 };
 
