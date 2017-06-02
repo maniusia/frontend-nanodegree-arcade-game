@@ -15,6 +15,6 @@ body {
     font: 20px sans-serif;
     border-radius: 5px;
 }
-#instructions {
+.instructions {
     font: 20px Arial;
 }
