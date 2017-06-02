@@ -1,11 +1,11 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Click [here](https://github.com/maniusia/frontend-nanodegree-arcade-game/blob/master/index.html) to play the game.
+Click [here](http://maniusia.github.io/frontend-nanodegree-arcade-game/) to play the game.
 
 Description:
 ------------
-A one level Frogger game where you can collect gems to increase the score.  Player position is restarted when player collide with a bug or goes into water<br \>
+<br>A one level Frogger game where you can collect gems to increase the score.  Player position is restarted when player collide with a bug or goes into water<br \>
 
 Instructions:
 ------------
