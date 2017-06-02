@@ -5,7 +5,7 @@ Click [here](https://github.com/maniusia/frontend-nanodegree-arcade-game) to dow
 
 **Description:**
 ------------
-A one level Frogger game where you can collect gems to increase the score.  Player position is restarted when player collide with a bug or goes into water.
+A one level Frogger game where you can collect gems to increase the score.<br />  Player position is restarted when player collide with a bug or goes into water.
 
 **Instructions:**
 ------------
@@ -19,8 +19,8 @@ Collect 15 gems to win the game. Good luck!
 -----------
 To start playing just use the arrow keys to move.  You can use the restart button to restart the game at any time.
 
-Arrow Keys:
-Up    :  player goes up
-Down  :  player goes down
-Left  :  player goes left
-Down  :  player goes down
+Arrow Keys:<br />
+Up    :  player goes up<br />
+Down  :  player goes down<br />
+Left  :  player goes left<br />
+Down  :  player goes down<br />
