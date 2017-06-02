@@ -1,26 +1,26 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Click [here](http://maniusia.github.io/frontend-nanodegree-arcade-game/) to play the game.
+Click [here](https://github.com/maniusia/frontend-nanodegree-arcade-game) to download the game.
 
-Description:
+**Description:**
 ------------
-<br>A one level Frogger game where you can collect gems to increase the score.  Player position is restarted when player collide with a bug or goes into water<br \>
+A one level Frogger game where you can collect gems to increase the score.  Player position is restarted when player collide with a bug or goes into water.
 
-Instructions:
+**Instructions:**
 ------------
 To run the game use the index.html file included. After opening the file game will run automatically in the browser.
 
-How to win:
+**How to win:**
 ----------
 Collect 15 gems to win the game. Good luck!
 
-Directions:
+**Directions:**
 -----------
 To start playing just use the arrow keys to move.  You can use the restart button to restart the game at any time.
 
-Arrow Keys:<br \>
-Up    :  player goes up<br \>
-Down  :  player goes down<br \>
-Left  :  player goes left<br \>
-Down  :  player goes down<br \>
+Arrow Keys:
+Up    :  player goes up
+Down  :  player goes down
+Left  :  player goes left
+Down  :  player goes down
