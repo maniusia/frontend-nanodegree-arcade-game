@@ -1,6 +1,26 @@
 frontend-nanodegree-arcade-game
 ===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+Click [here](https://github.com/maniusia/frontend-nanodegree-arcade-game/blob/master/index.html) to play the game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+Description:
+------------
+A one level Frogger game where you can collect gems to increase the score.  Player position is restarted when player collide with a bug or goes into water<br \>
+
+Instructions:
+------------
+To run the game use the index.html file included. After opening the file game will run automatically in the browser.
+
+How to win:
+----------
+Collect 15 gems to win the game. Good luck!
+
+Directions:
+-----------
+To start playing just use the arrow keys to move.  You can use the restart button to restart the game at any time.
+
+Arrow Keys:<br \>
+Up    :  player goes up<br \>
+Down  :  player goes down<br \>
+Left  :  player goes left<br \>
+Down  :  player goes down<br \>
